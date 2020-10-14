@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 
 public class Author extends Person {
-    private ArrayList<String> books;
+    private final ArrayList<String> books;
 
     public Author(String firstName, String lastName) {
         super(firstName, lastName);
